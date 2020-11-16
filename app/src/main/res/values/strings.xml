@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FormProject</string>
+    <string name="fullName">Nombre Completo</string>
+    <string name="phone">Telefono</string>
+    <string name="email">Email</string>
+    <string name="description">Descripcion contacto</string>
+    <string name="btnLable">Siguiente</string>
+    <string name="btn2Lable">Editar Datos</string>
+    <string name="secondaryTitle">Confirmar Datos</string>
+    <string name="date">Fecha de Nacimiento</string>
+    <string name="NAME">NAME</string>
+    <string name="EMAIL">EMAIL</string>
+    <string name="PHONE">PHONE</string>
+    <string name="DOB">DOB</string>
+    <string name="DESCRIPTION">DESCRIPTION</string>
+
+
+</resources>

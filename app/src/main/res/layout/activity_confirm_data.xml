@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ConfirmData">
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/secondaryTitle"
+        android:textSize="35sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nameLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/fullName"
+            />
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Manuel Gonzalez"
+            android:paddingLeft="15sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dateLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/date"
+            />
+        <TextView
+            android:id="@+id/txtDOB"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="12/12/1980"
+            android:paddingLeft="15sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/telLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/phone"
+            />
+        <TextView
+            android:id="@+id/txtPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="9999999"
+            android:paddingLeft="15sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/emailLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/email"
+            />
+        <TextView
+            android:id="@+id/txtMail"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="marvelo@hotmail.com"
+            android:paddingLeft="15sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/descLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/description"
+            />
+        <TextView
+            android:id="@+id/txtDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="description"
+            android:paddingLeft="15sp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:onClick="goBack"
+        android:text="@string/btn2Lable"/>
+
+</LinearLayout>
